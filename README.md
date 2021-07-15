@@ -4,11 +4,11 @@ Aplicação REST feito em C# utilizando ASP.NET, EntityFramework, SQLite
 
 Testar a aplicação: 
 
--Utilizar a clonagem de repositorio no Visual Studio para baixar a aplicação.
--Baixar o POSTMAN para testar a aplicação.
--Importar no POSTMAN -> FILE -> IMPORT e selecionar o arquivo ComandosREST.json
--Iniciar a aplicação no visual studio
--Abrir o POSTMAN e testar os comandos
+* Utilizar a clonagem de repositorio no Visual Studio para baixar a aplicação.
+* Baixar o POSTMAN para testar a aplicação.
+* Importar no POSTMAN -> FILE -> IMPORT e selecionar o arquivo ComandosREST.json
+* Iniciar a aplicação no visual studio
+* Abrir o POSTMAN e testar os comandos
 
 #Comandos REST
 * GET TODOS USUARIO
