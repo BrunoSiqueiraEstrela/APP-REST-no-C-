@@ -6543,11 +6543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\MEUS_PRODUTOS\\MEUS_PRODUTOS.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\APP-REST-no-C-\\MEUS_PRODUTOS.csproj",
       "projectName": "MEUS_PRODUTOS",
-      "projectPath": "C:\\Users\\user\\source\\repos\\MEUS_PRODUTOS\\MEUS_PRODUTOS.csproj",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\APP-REST-no-C-\\MEUS_PRODUTOS.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\MEUS_PRODUTOS\\obj\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\APP-REST-no-C-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

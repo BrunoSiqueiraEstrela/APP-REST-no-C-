@@ -21,6 +21,7 @@ namespace MEUS_PRODUTOS.Controllers
             this.produtoPepository = produtoPepository;
         }
 
+        //HHTP: GET
         [HttpGet]
         public async Task<ActionResult> GetProdutos()
         {
@@ -33,8 +34,9 @@ namespace MEUS_PRODUTOS.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Erro na requisição da Data ");
             }
 
-        }
+        } 
 
+        //HHTP: GET
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Produto>> GetProduto(int id)
         {
@@ -54,7 +56,7 @@ namespace MEUS_PRODUTOS.Controllers
 
         }
 
-
+        //HHTP: POST
         [HttpPost]
         public async Task<ActionResult<Produto>> Postproduto(Produto produto)
         {
@@ -75,7 +77,7 @@ namespace MEUS_PRODUTOS.Controllers
             }
 
         }
-
+        //HHTP: PUT
         [HttpPut("{id:int}")]
         public async Task<ActionResult<Produto>> Putproduto(int id, Produto produto)
         {
@@ -99,7 +101,7 @@ namespace MEUS_PRODUTOS.Controllers
             }
 
         }
-
+        //HHTP: DELETE
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> Deleteproduto(int id)
         {

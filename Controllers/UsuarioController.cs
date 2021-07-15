@@ -21,6 +21,7 @@ namespace MEUS_PRODUTOS.Controllers
             this.usuarioPepository = usuarioPepository;
         }
 
+        //HHTP: GET
         [HttpGet]
         public async Task<ActionResult> GetUsuarios() 
         {
@@ -35,6 +36,7 @@ namespace MEUS_PRODUTOS.Controllers
 
         }
 
+        //HHTP: GET
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {
@@ -54,7 +56,7 @@ namespace MEUS_PRODUTOS.Controllers
 
         }
 
-
+        //HHTP: POST
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
@@ -86,6 +88,7 @@ namespace MEUS_PRODUTOS.Controllers
 
         }
 
+        //HHTP: PUT
         [HttpPut("{id:int}")]
         public async Task<ActionResult<Usuario>> PutUsuario(int id, Usuario usuario) 
         {
@@ -110,6 +113,7 @@ namespace MEUS_PRODUTOS.Controllers
 
         }
 
+        //HHTP: DELETE
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> DeleteUsuario(int id)
         {
